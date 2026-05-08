@@ -219,14 +219,13 @@ Keypad / Buttons   ──>  Input Drivers ─┤
 3.  **UI Update:** Refresh LCD only when data changes to prevent flickering.
 
 -----
-
 ### System Features
 
-Feature                 | Description
-\------------------------|-------------------------------------------------------
-**Dual Authentication** | Secure access via Password or Biometric simulation.
-**Smart Auto-Control** | Fan speed adjusts dynamically based on temperature delta.
-**Voice Simulation** | Control AC speed using text commands over UART.
-**Safety Limits** | Motor speed capped at 100%; Temperature setpoint limits (18-30°C).
-**Live Monitoring** | Continuous tracking of Environmental data (Gas, Light, Temp).
-**Debug Interface** | Real-time system status logging via UART.
+| Feature                | Description |
+|------------------------|-------------|
+| Dual Authentication    | Secure access via Password or Biometric simulation |
+| Smart Auto-Control     | Fan speed adjusts dynamically based on temperature delta |
+| Voice Simulation       | Control AC speed using text commands over UART |
+| Safety Limits          | Motor speed capped at 100%; temperature range limited (18–30°C) |
+| Live Monitoring        | Continuous tracking of environmental data (Gas, Light, Temperature) |
+| Debug Interface        | Real-time system status logging via UART |
